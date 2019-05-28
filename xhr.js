@@ -1,4 +1,5 @@
-// file xhr.js
+//Daniel English - 14850842
+// file xhr.js - creates a new xhr object
 function createRequest() {
     var xhr = false;  
     if (window.XMLHttpRequest) {

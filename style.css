@@ -1,3 +1,6 @@
+/* Daniel English - 14850842
+	Main CSS styling page  - hold all custom css unrelated to the main bootstrap file */
+
 .section {
 	position: relative;
 	height: 100vh;
@@ -14,7 +17,7 @@
 
 #booking {
 	font-family: 'Montserrat', sans-serif;
-	background-image: url('../background.jpg');
+	background-image: url('./background.jpg');
 	background-size: cover;
 	background-position: center;
 }

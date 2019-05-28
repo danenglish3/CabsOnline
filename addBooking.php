@@ -1,4 +1,7 @@
 <?php
+/* Daniel English - 14850842
+		addBooking.php - PHP Script file for adding a booking to the DB */
+		
 	// get name and password passed from client
 	 $bookRef = $_POST['bookingNum'];
  		$nametouse = $_POST['names'];

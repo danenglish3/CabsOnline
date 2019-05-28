@@ -1,5 +1,6 @@
 <?php
-
+	/* 	Daniel English - 14850842
+		getBookings.php is used as a data transfer for getting unassigned bookings within 2 hours from now*/
 	require_once("../../conf/settings.php"); //please make sure the path is correct
 	$conn = @mysqli_connect( $host,
 	$user,

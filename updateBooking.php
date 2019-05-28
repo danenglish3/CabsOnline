@@ -1,4 +1,6 @@
 <?php
+/* Daniel English - 14850842
+	updateBooking.php is the data transfer which changes a booking from unassigned to assigned */
 	// get name and password passed from client
 	 $bookReff = $_POST['bookRef'];
 	

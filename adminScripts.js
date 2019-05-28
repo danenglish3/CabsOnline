@@ -1,3 +1,6 @@
+/* Daniel English - 14850842
+adminScripts.js holds all the relevant functions related to the admin html page */
+
 /* getBooking is responsible for calling the DB and getting all bookings that are currently
 unassigned within 2 hours from now. It will then update the html document with these
 bookings */
