@@ -1,0 +1,14 @@
+CREATE TABLE IF NOT EXISTS `booking` (
+  `bookingRefNo` varchar(40) NOT NULL,
+  `status` varchar(50) DEFAULT 'unassigned',
+  `bookingName` varchar(40) NOT NULL,
+  `phone` varchar(40) NOT NULL,
+  `unit` varchar(5) DEFAULT NULL,
+  `streetNumber` varchar(10) NOT NULL,
+  `streetName` varchar(50) NOT NULL,
+  `streetSuburb` varchar(50) NOT NULL,
+  `destinationSuburb` varchar(50) NOT NULL,
+  `bookedDate` datetime DEFAULT NULL,
+  `pickupDateTime` datetime NOT NULL,
+  PRIMARY KEY (`bookingRefNo`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
